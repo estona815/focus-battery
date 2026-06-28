@@ -11,8 +11,8 @@
     "doctor": "pnpm dlx expo-doctor",
     "check": "pnpm typecheck && pnpm test && pnpm doctor",
     "web:export": "CI=1 expo export --platform web",
-    "predeploy": "pnpm web:export",
-    "deploy": "gh-pages -t -d dist",
+    "predeploy": "pnpm web:export && touch dist/.nojekyll",
+    "deploy": "gh-pages --dotfiles -d dist",
     "typecheck": "tsc --noEmit",
     "test": "node --import tsx --test __tests__/**/*.test.ts"
   },
