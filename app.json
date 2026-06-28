@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Focus Battery",
+    "slug": "focus-battery",
+    "scheme": "focusbattery",
+    "version": "0.1.0",
+    "description": "ADHD 사용자를 위한 하루 배터리 흐름 보조 추정 앱",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "primaryColor": "#d5a0b7",
+    "backgroundColor": "#110d16",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "experiments": {
+      "baseUrl": "/focus-battery"
+    }
+  }
+}
