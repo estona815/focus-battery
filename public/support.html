@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Focus Battery 지원 안내</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f7f1ed;
+        --surface: #fcf8f5;
+        --text: #251d25;
+        --muted: #716873;
+        --line: #d9cdd8;
+        --accent: #8e7dbe;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.7;
+      }
+
+      main {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 40px 20px 72px;
+      }
+
+      section {
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        padding: 20px 22px;
+        margin-top: 16px;
+      }
+
+      h1,
+      h2 {
+        margin: 0 0 12px;
+      }
+
+      p,
+      li {
+        color: var(--muted);
+      }
+
+      a {
+        color: var(--accent);
+      }
+
+      .meta {
+        color: var(--accent);
+        font-weight: 700;
+      }
+
+      ul {
+        padding-left: 20px;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="meta">최종 업데이트: 2026-06-29</p>
+      <h1>Focus Battery 지원 안내</h1>
+      <section>
+        <p>
+          Focus Battery 사용 중 문제가 생겼다면 아래 정보를 함께 정리하면 원인 파악에 도움이 됩니다.
+        </p>
+        <ul>
+          <li>문제가 발생한 화면 이름</li>
+          <li>문제가 생기기 직전의 동작</li>
+          <li>브라우저 또는 기기 종류</li>
+          <li>가능하다면 오류 화면 캡처</li>
+        </ul>
+      </section>
+      <section>
+        <h2>정식 문의 채널</h2>
+        <p>
+          운영 지원 채널은 GitHub 이슈 트래커를 사용합니다. 버그 제보, 화면 오류, 기능 요청은 아래 공개
+          페이지에서 접수할 수 있습니다.
+        </p>
+        <ul>
+          <li><a href="https://github.com/estona815/focus-battery/issues">https://github.com/estona815/focus-battery/issues</a></li>
+          <li>새 이슈 등록에는 GitHub 로그인이 필요할 수 있습니다.</li>
+        </ul>
+      </section>
+      <section>
+        <h2>데이터 관련 안내</h2>
+        <p>
+          현재 앱 번들 기준으로 일정과 설정은 로컬 저장소 중심으로 보관됩니다. 사용자는 앱 설정의
+          “데이터 내보내기”와 “앱 데이터 초기화” 기능을 통해 자신의 데이터를 직접 관리할 수 있습니다.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
